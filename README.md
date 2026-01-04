@@ -78,19 +78,19 @@ com.example.community <br>
 
 📌메인 페이지
 
-![](C:\Users\yjm05\AppData\Roaming\marktext\images\2026-01-05-07-39-00-image.png)
+![이미지 설명](./2.png)
 
 <hr>
 
 📌게시글 작성 페이지
 
-![](C:\Users\yjm05\AppData\Roaming\marktext\images\2026-01-05-07-39-30-image.png)
+![이미지 설명](./3.png)
 
 <hr>
 
 📌게시글 상세 페이지
 
-![](C:\Users\yjm05\AppData\Roaming\marktext\images\2026-01-05-07-40-00-image.png)
+![이미지 설명](./4.png)
 
 <hr>
 
