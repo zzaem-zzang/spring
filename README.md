@@ -49,7 +49,7 @@ com.example.community <br>
   
 ## 📌 ERD
 
-<img title="" src="file:///C:/Users/yjm05/AppData/Roaming/marktext/images/2026-01-05-07-46-50-image.png" alt="" width="651">
+![이미지 설명](./1.png)
 
 `boards` 테이블은 게시판의 게시글 정보를 저장하는 테이블이다.  
 각 게시글은 고유한 식별자인 `id`를 기본 키(PK)로 가지며, 게시글의 제목(`title`), 내용(`content`), 생성 시간(`created_at`)으로 구성되어 있다.
