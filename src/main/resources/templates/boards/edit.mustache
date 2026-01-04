@@ -1,0 +1,33 @@
+{{> layouts/header}}
+
+<div class="container mt-5">
+    <h2 class="mb-4">게시글 수정</h2>
+    {{#board}}
+    <form action="/boards/update" method="post">
+        <!-- hidden id -->
+        <input type="hidden" name="id" value="{{id}}">
+
+        <div class="mb-3">
+            <label class="form-label">제목</label>
+            <input type="text" name="title"
+                   class="form-control"
+                   value="{{title}}" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">내용</label>
+            <textarea name="content"
+                      class="form-control"
+                      rows="8"
+                      required>{{content}}</textarea>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <a href="/boards/{{id}}" class="btn btn-secondary">취소</a>
+            <button type="submit" class="btn btn-primary">수정 완료</button>
+        </div>
+    </form>
+    {{/board}}
+</div>
+
+{{> layouts/footer}}

@@ -1,0 +1,23 @@
+{{> layouts/header}}
+
+<div class="container mt-5">
+    <h2 class="mb-4">전체 게시글</h2>
+
+    {{#boardList}}
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a href="/boards/{{id}}" class="text-decoration-none text-dark">
+                        {{title}}
+                    </a>
+                </h5>
+            </div>
+        </div>
+    {{/boardList}}
+
+    <div class="d-flex justify-content-end mt-4">
+        <a href="/boards/new" class="btn btn-primary">글 작성</a>
+    </div>
+</div>
+
+{{> layouts/footer}}

@@ -1,0 +1,35 @@
+{{> layouts/header}}
+{{#boardEntity}}
+<div class="container mt-5">
+
+    <!-- 제목 -->
+
+    <div class="mb-3">
+        <h2>{{title}}</h2>
+    </div>
+
+    <!-- 내용 -->
+    <div class="card mb-4">
+        <div class="card-body" style="white-space: pre-line;">
+            {{content}}
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <a href="/boards" class="btn btn-secondary">목록</a>
+
+        <div>
+            <a href="/boards/{{id}}/edit" class="btn btn-warning me-2">
+                수정
+            </a>
+            <a href="/boards/{{id}}/delete"
+               class="btn btn-danger"
+               onclick="return confirm('정말 삭제하시겠습니까?');">
+                삭제
+            </a>
+        </div>
+    </div>
+
+</div>
+{{/boardEntity}}
+{{> layouts/footer}}

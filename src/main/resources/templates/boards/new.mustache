@@ -1,0 +1,26 @@
+{{> layouts/header}}
+
+<div class="container mt-5">
+    <h2 class="mb-4">게시글 작성</h2>
+
+    <form action="/boards/create" method="post">
+        <div class="mb-3">
+            <label class="form-label">제목</label>
+            <input type="text" name="title" class="form-control"
+                   placeholder="제목을 입력하세요" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">내용</label>
+            <textarea name="content" class="form-control"
+                      rows="8" placeholder="내용을 입력하세요" required></textarea>
+        </div>
+
+        <div class="d-flex justify-content-end">
+            <a href="/boards" class="btn btn-secondary me-2">취소</a>
+            <button type="submit" class="btn btn-primary">게시글 등록</button>
+        </div>
+    </form>
+</div>
+
+{{> layouts/footer}}
