@@ -15,7 +15,7 @@ Spring Boot와 JPA를 활용한 **기본 CRUD 게시판 프로젝트**입니다.
 | DB              | H2 (In-Memory)  |
 | Template Engine | Mustache        |
 | Build Tool      | Gradle          |
-| IDE             | IntelliJ IDEA#  |
+| IDE             | IntelliJ IDEA  |
 
 <hr>
 
