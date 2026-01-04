@@ -21,15 +21,15 @@ Spring Boot와 JPA를 활용한 **기본 CRUD 게시판 프로젝트**입니다.
 
 ## 📂 패키지 구조
 
-com.example.community
- ├─ controller
- │   └─ BoardController
- ├─ dto
- │   └─ BoardForm
- ├─ entity
- │   └─ Board
- └─ repository
-     └─ BoardRepository
+com.example.community <br>
+ ├─ controller <br>
+ │   └─ BoardController <br>
+ ├─ dto <br>
+ │   └─ BoardForm <br>
+ ├─ entity <br>
+ │   └─ Board <br>
+ └─ repository <br>
+     └─ BoardRepository <br>
 
 <hr>
 
