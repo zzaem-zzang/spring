@@ -22,14 +22,14 @@ Spring Boot와 JPA를 활용한 **기본 CRUD 게시판 프로젝트**입니다.
 ## 📂 패키지 구조
 
 com.example.community
- ├─ controller
- │   └─ BoardController
- ├─ dto
- │   └─ BoardForm
- ├─ entity
- │   └─ Board
- ├─ repository
- │   └─ BoardRepository
+├─ controller
+│   └─ BoardController
+├─ dto
+│   └─ BoardForm
+├─ entity
+│   └─ Board
+├─ repository
+│   └─ BoardRepository
 
 <hr>
 
@@ -45,9 +45,9 @@ com.example.community
 
 - 게시글 삭제
   
-  <hr>
+<hr>
   
-  ### 📌 ERD
+## 📌 ERD
 
 <img title="" src="file:///C:/Users/yjm05/AppData/Roaming/marktext/images/2026-01-05-07-46-50-image.png" alt="" width="651">
 
@@ -87,6 +87,7 @@ com.example.community
 ![](C:\Users\yjm05\AppData\Roaming\marktext\images\2026-01-05-07-39-30-image.png)
 
 <hr>
+
 📌게시글 상세 페이지
 
 ![](C:\Users\yjm05\AppData\Roaming\marktext\images\2026-01-05-07-40-00-image.png)
